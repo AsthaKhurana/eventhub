@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/addEvent.css">
+  <title>Add New Event</title>
+</head>
+<body>
+  <!-- sidebar -->
+  <div id="divSide">
+    <h1 id="heading" class="side">Add Event</h1>
+    <form action="addEvent.html" method="get" id="socialMedia" class="side">
+      <label for="facebook">Facebook Link</label>
+      <input type="text" name="facebook" placeholder="https://facebook.com/eventHandle">
+      <label for="twitter">Twitter Link</label>
+      <input type="text" name="twitter" placeholder="https://twitter.com/eventHandle">
+      <label for="instagram">Instagram Link</label>
+      <input type="text" name="instagram" placeholder="https://instagram.com/eventHandle">
+    </form>
+    <!-- upload image -->
+    <label for="uploadImg" id="labelImg">Main Image</label>
+    <button name="uploadImg" type="submit" class="side" id="uploadImg">Upload</button>
+  </div>
+  <!-- main content -->
+  <div id="main">
+    <form action="new.html" method="get" id="addNew">
+      <label for="name">Event Name</label>
+      <input type="text" name="name" placeholder="Movie: First Man">
+      <label for="description">Event Description</label>
+      <input type="text" name="description" placeholder="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque quam natus eaque inventore, sint soluta itaque doloremque aperiam dolorum esse id, adipisci sit dignissimos laudantium excepturi possimus quidem eveniet iste.">
+      <!-- date and time picker -->
+      <div id="DTP">
+        <label for="date" >Date</label>
+        <input type="date" value="2018-11-25" min="2018-01-01" max="2018-12-31">
+        <label for="time">Time</label>
+        <input type="time">
+      </div>
+      <!-- location -->
+      <label for="place">Place</label>
+      <input type="text" name="place" placeholder="Hoff Theatre, Stamp">
+      <div id="btns">
+        <!-- add button -->
+        <button type="submit" id="add">Add Event</button>
+        <!-- clear all button -->
+        <button type="submit" id="clr">Clear All</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
