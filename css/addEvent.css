@@ -120,7 +120,9 @@ div#main label{
   padding-top:16px;
 }
 
+
 div#main input, textarea{
+
   font-size: 16px;
   font-weight:400;
 
@@ -130,6 +132,7 @@ div#main input, textarea{
   border:none;
   border-bottom:#EEEEEE 2px solid;
 }
+
 
 div#main textarea{
   outline: none;
@@ -148,11 +151,13 @@ div#main p#charLimit{
 
   margin-bottom:0px;
   line-height:1em;
+
 }
 
 div#main div#DTP *{
   margin-right:16px;
 }
+
 
 div#main div#DTP input{
   padding-bottom:8px;

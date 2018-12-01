@@ -1,3 +1,4 @@
+
 Date.setDate() // set date
 //add event form
 var form = document.getElementById('addNew');
@@ -11,3 +12,4 @@ clrButton.addEventListener(form.reset(), clear);
 //event description textarea
 var desc = document.getElementById('desc');
 //
+
