@@ -120,7 +120,9 @@ div#main label{
   padding-top:16px;
 }
 
-div#main input{
+
+div#main input, textarea{
+
   font-size: 16px;
   font-weight:400;
 
@@ -131,12 +133,34 @@ div#main input{
   border-bottom:#EEEEEE 2px solid;
 }
 
-div#main div#DTP{
-  padding-top:16px;
+
+div#main textarea{
+  outline: none;
+  resize:none;
+  overflow: auto;
+}
+
+div#main p#charLimit{
+  width:100%;
+
+  font-size: 16px;
+
+  text-align:right;
+  font-weight:400;
+  color:#888888;
+
+  margin-bottom:0px;
+  line-height:1em;
+
 }
 
 div#main div#DTP *{
   margin-right:16px;
+}
+
+
+div#main div#DTP input{
+  padding-bottom:8px;
 }
 
 div#main div#btns{

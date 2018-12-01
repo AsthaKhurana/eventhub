@@ -25,11 +25,13 @@
   </div>
   <!-- main content -->
   <div id="main">
-    <form action="new.html" method="get" id="addNew">
+    <form action="addEvent.html" method="post" id="addNew">
       <label for="name">Event Name</label>
       <input type="text" name="name" placeholder="Movie: First Man">
       <label for="description">Event Description</label>
-      <input type="text" name="description" placeholder="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque quam natus eaque inventore, sint soluta itaque doloremque aperiam dolorum esse id, adipisci sit dignissimos laudantium excepturi possimus quidem eveniet iste.">
+      <textarea id="desc" type="text" name="description" maxlength="120" rows="2" placeholder="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque quam natus eaque inventore, sint soluta itaque doloremque aperiam dolorum esse."></textarea>
+      <p id="charLimit">max 120 characters</p>
+
       <!-- date and time picker -->
       <div id="DTP">
         <label for="date" >Date</label>
