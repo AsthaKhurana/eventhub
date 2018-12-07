@@ -1,0 +1,8 @@
+{
+	"courses": [
+	  {"code" : "INST620", "title": "Diverse Populations, Inclusion, and Information", "instructor": "Hill", "classroom": "ONLINE", "description": "Importance of equality of information access. Social, political, and technological barriers to information. Information needs of diverse and underrepresented populations. Principles of inclusive information services."},
+	  { "code": "INST627", "title": "Data Analytics for Information Professionals", "instructor": "Kacorri", "classroom": "HBK 0105", "description": "Skills and knowledge needed to craft datasets, perform quantitative and qualitative analyses, and develop information resources that bridge the gap between raw data and decision makers' needs." },
+	  { "code": "INST630", "title": "Introduction to Programming for the Information Professional", "instructor": "Diker", "classroom": "HBK 0105", "description": "An introduction to computer programming intended for students with no previous programming experience. Topics include fundamentals of programming and current trends in user interface implementation that are relevant to information professionals." },
+	  { "code": "INST631", "title": "Fundamentals of Human-Computer Interaction ", "instructor": "Golbeck", "classroom": "BPS 1238", "description": "Principles of human-human and machine-machine communication as a basis for models of human-computer communication. Issues related in input/ output devices, conceptual models, levels of control, metaphor and personification, adaptability, and intensionality/extensionality." }
+	]
+}

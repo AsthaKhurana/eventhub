@@ -25,7 +25,7 @@
   </div>
   <!-- main content -->
   <div id="main">
-    <form action="addEvent.html" method="post" id="addNew">
+    <form action="addEvent.html" method="get" id="addNew">
       <label for="name">Event Name</label>
       <input type="text" name="name" placeholder="Movie: First Man">
       <label for="description">Event Description</label>
@@ -36,8 +36,10 @@
       <div id="DTP">
         <label for="date" >Date</label>
         <input type="date" value="2018-11-25" min="2018-01-01" max="2018-12-31">
-        <label for="time">Time</label>
-        <input type="time">
+        <label for="fromTime">Time</label>
+        <input type="time" name="fromTime">
+        <label for="toTime">Time</label>
+        <input type="time" name="toTime">
       </div>
       <!-- location -->
       <label for="place">Place</label>
@@ -50,5 +52,17 @@
       </div>
     </form>
   </div>
+
+  <!-- testing the form add button -->
+  <div class="results">
+      <h2 class="results__heading">Form Data</h2>
+      <pre class="results__display-wrapper">
+      <code class="display"></code>
+    </pre>
+    <p id='parsed'></p>
+  </div>
+  <!-- <script src="http://www.example.com?q=w3r_callback"><script> -->
+  <!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script> -->
+  <script src="js/addEvent.js"></script>
 </body>
 </html>
