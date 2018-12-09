@@ -20,6 +20,7 @@
 var data='';
 var json_str;
 var str='';
+var obj;
 
 var formToJSON = elements => [].reduce.call(elements, (data, element) => {
 
@@ -47,14 +48,12 @@ function handleFormSubmit(event) {
   //stringfying the json object
   json_str = JSON.stringify(data);
   console.log("json_str = " + json_str);
-
   var obj = JSON.parse(json_str);
-  document.getElementById("parsed").innerHTML = obj.name + ", " + obj.description+"," +obj.fromTime + "," +obj.toTime;
-  dataContainer.textContent = json_str;
+
 };
 
 //calling function for submit button
 
 var form = document.getElementById('addNew');
-console.log(form);
 form.addEventListener('submit', handleFormSubmit);
+console.log(obj);
