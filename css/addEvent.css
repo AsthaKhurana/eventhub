@@ -10,7 +10,7 @@ html,body{
 body{
   /* width:80%; */
   margin: 0 auto;
-  height:100%;
+  height:90%;
 
   display:flex;
   flex-direction:row;
@@ -22,7 +22,7 @@ body{
 
 div#divSide{
   flex: 0 0 15%;
-  height:100%;
+  height:105%;
   background-color:#46256F;
   color:white;
 
@@ -30,7 +30,7 @@ div#divSide{
   flex-direction:column;
   justify-content:flex-start;
 
-  padding-top:96px;
+  padding-top:5%;
   padding-right:96px;
   /* padding-bottom:48px; */
   padding-left:48px;
@@ -95,11 +95,11 @@ div#divSide button#uploadImg{
 
 div#main{
   flex-grow:4;
-  height:100%;
+  /* height:100%; */
   background-color:#ffffff;
   color:#474747;
 
-  padding-top:194px;
+  padding-top:10%;
   padding-left:48px;
   padding-right: 112px;
 
@@ -121,7 +121,7 @@ div#main label{
 }
 
 
-div#main input, textarea, select{
+div#main input, textarea{
 
   font-size: 16px;
   font-weight:400;
@@ -161,6 +161,30 @@ div#main div#DTP *{
 
 div#main div#DTP input{
   padding-bottom:8px;
+}
+
+div#main div#divPlace{
+  display:flex;
+  flex-direction:row;
+  justify-content:flex-start;
+
+  margin: 32px 0;
+
+}
+
+div#main select{
+  flex-basis:90%;
+  display:inline;
+
+  margin: 0 32px;
+  padding:0 16px;
+
+  font-size: 16px;
+  font-weight:400;
+
+  color:#888888;
+  border:none;
+  border-bottom:#EEEEEE 2px solid;
 }
 
 div#main div#btns{
