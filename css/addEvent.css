@@ -55,7 +55,7 @@ div#divSide label{
   text-transform: uppercase;
 }
 
-div#divSide input, select{
+div#divSide input{
   font-size: 12px;
   line-height:2em;
   font-weight:bold;
@@ -121,7 +121,7 @@ div#main label{
 }
 
 
-div#main input, textarea{
+div#main input, textarea, select{
 
   font-size: 16px;
   font-weight:400;
