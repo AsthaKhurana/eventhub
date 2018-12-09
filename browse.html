@@ -10,17 +10,8 @@
   <link rel="stylesheet" href="css/browse.css">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/view_event.css"/>
-  <script
-  src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
-<!--       <script>
-    $(function(){
-      $("#includedContent").load("test.html");
-    });
-    </script> -->
-  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
-  <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+  <link rel="stylesheet" href="css/new_view_event.css"/>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 
 </head>
 
@@ -59,60 +50,39 @@
 		<div class="container">
 			<h2>All Events</h2>
 				<section class="card-container">
-					<article id="card" class="card">
-					      <div class="wrapper">
-					      <div class="date">
-					        <div class="black-bg">
-					        	<span class="week-day">TUE</span>
-					        </div>
-					        <div class="white-bg">
-						        <span class="day">15</span>
-						        <span class="month">DEC</span>
-					    	</div>
-					      </div>
-					  </div>
-					  <div class="card-body">
-					    <h5 class="card-title">Memory</h5>
-					    <div class="location">
-							<img class="location-icon" src="assets/img/icons/location-icon.png" alt="Card image cap">
-							<span class="location-placeholder">Stamp Ball Room</span>
-						</div>
-						<div class="time">
-							<img class="time-icon" src="assets/img/icons/clock-icon.png" alt="Card image cap">
-							<span class="time-placeholder">5:00 pm - 8:00 pm</span>
-						</div>
-					    <p class="card-text">Some quick example text to build on the card tit...more</p>
-					  </article>
-
-
-
+					<!-- All event cards come here form browse.js -->
 				</section>
 		</div>
 
-
-		<!-- Invisible modal -->
-			<div id="myModal" class="modal">
-	  <span class="close">&times;</span>
-	  <div class="modal-content">
-	    <img src="Images/First_man.jpg" id="first-man" alt="First_man"/>
-	    <h1 class="title"> Movie: First man </h1>
-	    <p id="pad">
-		  <div class="date" id="mrg">
-	  		<p id="pad">10</p>
-	  		<div class="line"></div>
-	  		<p id="pad">Nov</p>
-		  </div>
-		  <h2><br>SEE Event </h2>
-		  <h2> 8:00 PM </h2>
-		  <h2> Hoff Theatre </h2> <br>
-		  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-		</p>
-	  </div>
+<!-- Invisible modal -->
+<div id='myModal' class='modal'>
+	<div class="modal-content">
+	<div class='wrapper' style='background: url(https://www.gettyimages.com/gi-resources/images/500px/983794168.jpg) 20% 1% / cover no-repeat'>
+		<img class='close' src='assets/img/icons/close-icon.png' alt='Card image cap'>
+		<div class='date'>
+			<div class='black-bg'>
+				<span class='week-day'>TUE</span>
+			</div>
+			<div class='white-bg'>
+				<span class='day'>15</span>
+				<span class='month'>DEC</span>
+			</div>
+		</div>
 	</div>
-
+	<div class='modal-body'>
+		<h5 class='modal-title'>Logan Movie</h5>
+		<div class='location'>
+			<img class='location-icon' src='assets/img/icons/location-icon.png' alt='Card image cap'>
+			<span class='location-placeholder'>Stamp</span>
+		</div>
+		<div class='time'><img class='time-icon' src='assets/img/icons/clock-icon.png' alt='Card image cap'>
+			<span class='time-placeholder'>2:00 pm - 5:00pm</span>
+		</div>
+		<p class='modal-text'>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+	</div>
+</div>
+	<script src="js/browse.js"></script>
 	<script src="js/view_event.js"></script>
-
-
 
 </body>
 </html>
