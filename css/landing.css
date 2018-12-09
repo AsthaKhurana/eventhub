@@ -19,7 +19,7 @@ body {
 }
 div#effects {
   position: relative;
-  width: 30vw;
+  width: 25vw;
   height: 20vw;
   line-height: 10vw;
   text-align: center;
@@ -43,9 +43,10 @@ div#effects:after {
   -moz-filter: blur(5vw);
   -ms-filter: blur(5vw);
   filter: blur(5vw);
-  background: linear-gradient(270deg, #0fffc1, #7e0fff);
+  background: rgba(15,255,193,1);
+  background: linear-gradient(270deg, rgba(126,15,255,1) 0%, rgba(14,44,91,1) 25%, rgba(97,4,95,1) 50%, rgba(170,7,107,1) 70%, rgba(15,255,193,1) 100%);
   background-size: 200% 200%;
-  animation: animateGlow 2s ease infinite;
+  animation: animateGlow 5s ease infinite;
 }
 
 
@@ -55,7 +56,7 @@ div a{
   text-decoration:none;
   color: white;
 
-  font-size:36px;
+  font-size:28px;
   font-weight:bold;
   text-transform:uppercase;
 
@@ -83,10 +84,16 @@ a#browse{
   0% {
     color: #7e0fff;
   }
+  25% {
+    color: #0E2C5B;
+  }
   50% {
-    color: #0fffc1;
+    color: #61045F;
+  }
+  75% {
+    color: #AA076B;
   }
   100% {
-    color: #7e0fff;
+    color: #0fffc1;
   }
 }
