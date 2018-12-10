@@ -4,6 +4,34 @@
   font-weight: Bold;
   font-style: normal;
 }
+.navbar {
+    /*height: 88px;*/
+    background-color: #B92831;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    height: 60px;
+
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+
+}
+
+#browse {
+    color: white;
+    font-family:"Lato-Bold", helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    float: right;
+
+    margin-right: 32px;
+
+    padding: 24px 0 8px 0;
+    text-transform:uppercase;
+
+}
+
 html,body{
   height:100%;
 }
@@ -23,7 +51,7 @@ body{
 div#divSide{
   flex: 0 0 15%;
   height:105%;
-  background-color:#46256F;
+  background-color:#B92831;
   color:white;
 
   display:flex;
@@ -81,7 +109,7 @@ div#divSide #labelImg{
 }
 
 div#divSide button#uploadImg{
-  background:#27DDE0;
+  background:none;
   color:white;
 
   font-size:16px;
@@ -89,7 +117,7 @@ div#divSide button#uploadImg{
   font-weight:bold;
   height:40px;
 
-  border:none;
+  border:2px white solid;
   border-radius:20px;
 }
 
@@ -195,7 +223,8 @@ div#main div#btns{
 
 div#main button{
   flex: 0 0 20%;
-  background:#46246F;
+  /* background:#46246F; */
+  background:#B92831;
   color:white;
 
   font-size:16px;
