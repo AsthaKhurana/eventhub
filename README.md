@@ -1,5 +1,5 @@
 # Eventhub
-## Term project for INST630 - HCIM UMd
+## Term project for INST630 - HCIM UMD
 A events app to help students of Univeristy of Maryland discover events on campus.
 
 Access the app here 
