@@ -12,20 +12,27 @@
   <link rel="stylesheet" href="css/view_event.css"/>
   <link rel="stylesheet" href="css/new_view_event.css"/>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.3.0/fuse.min.js"></script>
 </head>
 
 <body>
 
 	<div class= "navbar">
-		<a id="addEvent" href="addEvent.html"> + Add Event</a>
+		<a id="addEvent" href="addEvent.html">+ Add Event</a>
 	</div>
 
 		<!-- <div class="banner-container"> -->
 				<img class="banner" src="assets/img/banner.jpg" alt="Card image cap">
-				<div class="search">
+<!-- 				<div class="search">
 					<img class="search-icon" src="assets/img/icons/search-icon.png" alt="Card image cap">
 					<span class="search-placeholder">Looking for an event?</span>
+				</div> -->
+
+				<!-- onkeyup="myFunction()" -->
+
+				<div class="search">
+					<img class="search-icon" src="assets/img/icons/search-icon.png" alt="Card image cap">
+					<input type="text" class="search-placeholder" id="myInput" placeholder="Looking up for an event?">
 				</div>
 		<!-- </div> -->
 				<div class="filter-container">
@@ -57,7 +64,7 @@
 <!-- Invisible modal -->
 <div id='myModal' class='modal'>
 	<div class="modal-content">
-	<div class='wrapper' style='background: url(https://www.gettyimages.com/gi-resources/images/500px/983794168.jpg) 20% 1% / cover no-repeat'>
+	<div class='wrapper' >
 		<img class='close' src='assets/img/icons/close-icon.png' alt='Card image cap'>
 		<div class='date'>
 			<div class='black-bg'>
@@ -67,7 +74,7 @@
 				<span class='day'>15</span>
 				<span class='month'>DEC</span>
 			</div>
-		</div>
+	</div>
 	</div>
 	<div class='modal-body'>
 		<h5 class='modal-title'>Logan Movie</h5>
